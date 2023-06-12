@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  height: 100vh;
+}
+
+main {
+  display: flex;
+}
+
+#header {
+  border: 5px solid green;
+}
+
+#box-1 {
+  border: 5px solid red;
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#box-2 {
+  border: 5px solid blue;
+  height: 400px;
+  width: 400px;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+h1,
+p {
+  text-align: center;
+}
